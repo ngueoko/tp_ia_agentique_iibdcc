@@ -1,0 +1,10 @@
+{
+  "dependencies": [".."],
+  "graphs": {
+    "main_agent": "./agent_principal.py:main_agent",
+    "subagent_1" : "./sous_agent_calcul.py:subagent_1",
+    "subagent_2" : "./sous_agent_calcul.py:subagent_2"
+  },
+  "env": ".env",
+    "python_path": ["./tp5"]
+}
